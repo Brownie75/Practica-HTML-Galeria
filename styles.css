@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #e7f0f8;
+}
+.header {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  column-gap: 70%;
+  align-items: center;
+  border-bottom: 3px solid #262c40;
+  margin-bottom: 15px;
+}
+.icons i {
+  margin-left: 20px;
+}
+.icons a {
+  color: #262c40;
+}
+.icons a:hover {
+  color: #6374ae;
+}
+.image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 100px;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
+  border-radius: 25px;
+  background-color: #9cb6dd;
+  border: 3px solid rgb(35, 35, 77);
+}
+.image-box img {
+  transition: .2s ease-out;
+  margin: 15px;
+  height: 200px;
+  box-shadow: 5px 10px 10px rgba(38, 48, 64, 0.5);
+  border: 5px solid #e5e8f1;
+  border-radius: 25px;
+}
+.image-box img:hover{
+  transform: scale(1.1);
+}
+
+.image-and-text {
+  display: flex;
+  margin: 15px 5% 15px 5%;
+  border: 3px solid #262c40;
+  background-color: #6374ae;
+  border-radius: 25px;
+  display: flex;
+  padding: 20px;
+  color: white;
+  justify-content: space-around;
+}
+.image-and-text .Trinny {
+  width: 30%;
+  margin: 0 15px 0 0;
+}
+.image-and-text img{
+  transition: .3s ease-out;
+}
+.image-and-text img:hover{
+  
+  transform: scale(1.05);
+}
+.image-and-text img {
+  box-shadow: 5px 10px 10px #262c40;
+}
+.profile {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(41, 125, 177);
+  background-color: rgb(144, 219, 241);
+  border-radius: 25px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.pfp {
+  width: 150px;
+  height: 150px;
+  background-image: url(img/Yo_2xsmall.jpg);
+  border-radius: 100%;
+}
+.my-info {
+  width: 60%;
+  padding-left: 5%;
+}
+.footer {
+  background-color: #6374ae;
+  height: 300px;
+  border-top: 3px solid #262c40;
+  padding: 0 5% 0 5%;
+  display: flex;
+  width: 100%;
+}
+.footer .SCP {
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  align-self: center;
+}
+.link-to-wiki {
+  font-family: "Comic Sans MS";
+  display: flex;
+  align-items: center;
+  height: 50%;
+  margin-left: 20px;
+  padding: 15px;
+  background-color: #9cb6dd;
+  border-radius: 25px;
+  border: 3px solid #262c40;
+  transition: .3s ease-out;
+}
+.link-to-wiki:hover{
+  transform: scale(1.05);
+}
+.footer li {
+  margin-bottom: 10px;
+}
+.footer a {
+  color: white;
+}
